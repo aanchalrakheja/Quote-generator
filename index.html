@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>QUOTE GENERATOR</title>
+        <!--change the favicon, favicon  is the icon that appears left to the title of the page when we load it in out browser-->
+        <!-- <link rel="icon" type="img/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com
+        "> -->
+        <!--linking the font-awesome so that we can use icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="quote-container">
+            <div id="quote-text">
+                <i class="fas fa-quote-left"></i>
+                <span id="quote"></span>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <div id="quote-author"></div>
+            <div id="buttons">
+                <button id="twitter" title="Tweet this"> <i class="fab fa-twitter"></i></button>
+                <button id="new-quote">New quote</button>
+            </div>
+        </div>
+        <div id="loader"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
